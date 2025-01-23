@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		33EA32602D4148E8008AF83B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA325F2D4148E8008AF83B /* ToDoList.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		33EA32452D3BF841008AF83B /* To Do Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA325F2D4148E8008AF83B /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		33EA323C2D3BF841008AF83B = {
 			isa = PBXGroup;
 			children = (
+				33EA325F2D4148E8008AF83B /* ToDoList.swift */,
 				33EA32472D3BF841008AF83B /* To Do Hackwich */,
 				33EA32462D3BF841008AF83B /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EA32602D4148E8008AF83B /* ToDoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
